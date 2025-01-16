@@ -1,7 +1,3 @@
-# install kerbrute:
-sudo apt install golang-go
-go install github.com/ropnop/kerbrute@latest
-
 # Export path for go binaries:
 `export "PATH=/home/kali/go/bin/:$PATH"`
 `source ~/.zshrc`
