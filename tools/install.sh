@@ -1,3 +1,6 @@
+sudo apt install golang-go -y
+go install github.com/ropnop/kerbrute@latest
+sudo apt install tmux -y
 git clone https://github.com/lgandx/Responder.git
 git clone https://github.com/topotam/PetitPotam.git
 git clone https://github.com/abaker2010/impacket-fixed.git
