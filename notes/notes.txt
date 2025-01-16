@@ -1,0 +1,35 @@
+# install kerbrute:
+sudo apt install golang-go
+go install github.com/ropnop/kerbrute@latest
+
+# Export path for go binaries:
+`export "PATH=/home/kali/go/bin/:$PATH"`
+`source ~/.zshrc`
+
+# Basic procedure: 
+- [ ] anon/guest smb/ldap
+- [ ] anon rpc
+- [ ] user enum
+- [ ] anon ftp
+- [ ] llmnr
+- [ ] smbv1
+- [ ] preauthentication
+- [ ] user spns
+- [ ] passbacks
+- [ ] nopac
+- [ ] petitpotam
+- [ ] cracking
+- [ ] ldap enum
+- [ ] delegation
+- [ ] local admin
+
+# Proxychains config
+`nano /etc/proxychains.conf`
+
+```
+[ProxyList]
+# add proxy here ...
+# meanwile
+# defaults set to "tor"
+socks4 127.0.0.1 1080
+```
