@@ -29,3 +29,14 @@
 # defaults set to "tor"
 socks4 127.0.0.1 1080
 ```
+
+# Brief osint template
+- first/lastname
+	- email
+	- password
+	- phone
+	- position
+	- company
+	- other notes:
+		- gender, family members, etc 
+	
